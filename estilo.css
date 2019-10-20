@@ -2,3 +2,7 @@ h1 {
     font-size: 4rem;
     margin-bottom: 0;
 }
+body {
+    background-image: url("Pencil Site\assets\images\background1.jpg");
+    background-color: #eafa09;
+  }
