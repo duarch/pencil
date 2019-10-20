@@ -3,6 +3,14 @@ h1 {
     margin-bottom: 0;
 }
 body {
-    background-image: url("Pencil Site\assets\images\background1.jpg");
+    height: 100%;
+    position: absolute;
+    align: center;
+    background-image: url("https://github.com/duxiaoan/pencil/blob/master/Pencil%20Site/assets/images/background1.jpg?raw=true");
     background-color: #eafa09;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+ 
