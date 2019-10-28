@@ -78,5 +78,18 @@ body, html, #main {
 }
 
 #img-div {
-    font-family: 'PWPerspective', sans-serif;
+    font-family: 'PWPerspective';
+}
+
+.fonttest  {
+    font-family: 'PWPerspective';
+}
+
+#img8 {
+    
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+      
 }
