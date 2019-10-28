@@ -1,9 +1,13 @@
 @font-face {
     font-family: 'PWPerspective'; /* credit to www.peax-webdesign.com */
-    src: url('')
-    format('truetype');
+    src: url('https://github.com/duxiaoan/pencil/blob/master/Pencil%20Site/assets/fonts/PWPerspective.ttf')
+         local('PWPerspective')
+         format('truetype');
 }
 
+#fontpw {
+    font-family: 'PWPerspective', sans-serif;
+}
 
 body, html, #main {
     height: 100%;
@@ -71,4 +75,8 @@ body, html, #main {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+}
+
+#img-div {
+    font-family: 'PWPerspective', sans-serif;
 }
