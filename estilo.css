@@ -53,6 +53,28 @@ body, html, #main {
     padding: 20px;
     text-align: center;
   }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
   .vid iframe {
     background-color: khaki;
     position: absolute;
@@ -121,26 +143,5 @@ tbody {
     margin: 0 auto 50px auto;
   }
   
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  #img-div {
-    background: white;
-    padding: 10px;
-    margin: 0;
-  }
-  
-  #img-caption {
-    margin: 15px 0 5px 0;
-  }
-  
-  @media (max-width: 460px) {
-    #img-caption {
-      font-size: 1.4rem;
-    }
-  }
+
   
