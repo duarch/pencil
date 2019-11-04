@@ -96,15 +96,17 @@ body, html, #main {
 .wikitable {
     background-color: #f8f9fa;
     color: #222;
-    margin: 1em 0;
+    margin: 0 auto 50px auto;
     border: 1px solid #a2a9b1;
     border-collapse: collapse;
+
 }
 table {
     display: table;
     border-collapse: separate;
     border-spacing: 2px;
     border-color: grey;
+    margin: 0 auto 50px auto;
 }
 tbody {
     display: table-row-group;
@@ -116,4 +118,7 @@ tbody {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
+  }
+  figcaption {
+    margin: 0 auto 50px auto;
   }
